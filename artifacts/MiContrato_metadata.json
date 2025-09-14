@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_codigo",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getCodigo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_MiContrato.sol": "MiContrato"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_MiContrato.sol": {
+			"keccak256": "0xc0c220dbf26dcde403b2c54436485af5dd92593ba0fb355657843c164c6ce83e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0914a0df8fed6f614995c30e36f5d6b78259a348325ab54f63b0d4345d1b89d0",
+				"dweb:/ipfs/QmWS9RQm8Fm3vvPNHHEEVm3jU2vdsBtpdzkGXkbLNxCLV4"
+			]
+		}
+	},
+	"version": 1
+}
