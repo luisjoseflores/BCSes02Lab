@@ -1,0 +1,198 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "operacion",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numeroA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numeroB",
+						"type": "uint256"
+					}
+				],
+				"name": "operar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "operacion",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numeroA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numeroB",
+						"type": "uint256"
+					}
+				],
+				"name": "operarT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "sumar10siguientes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sumarImpares",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sumaImpares",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sumarImparesYPares",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sumaImpares",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sumaPares",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_times",
+						"type": "uint256"
+					}
+				],
+				"name": "sumarXsiguientes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_BuclesCondicionales.sol": "BuclesCondicionales"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_BuclesCondicionales.sol": {
+			"keccak256": "0x46aefcd27fc81e35712ee5560b458cc5e2838370926ea8404471a5b2dba871e5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://53f005d7486a7e4a80f6cc3bdb8f38ca78e4d279bc5e0729b0a4f22af4f696b4",
+				"dweb:/ipfs/QmYX1x86L6aJiknNnuGxSfj2M6jpsvWR2jbS46Bs6V7XMM"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+			]
+		}
+	},
+	"version": 1
+}

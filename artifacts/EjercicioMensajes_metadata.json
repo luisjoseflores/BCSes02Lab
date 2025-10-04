@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_contenido",
+						"type": "string"
+					}
+				],
+				"name": "enviarMensaje",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "mensajes",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "contenido",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pintarDestinatarioMensajes",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Implementar un contrato que permita al propietario del contrato enviar mensajes a otro usuario. Cada mensaje debe guardar: La dirección del remitente (from) //siempre es el propietario La dirección del destinatario (to) El contenido del mensaje (contenido) La fecha y hora en que fue enviado (timestamp) //block.timestamp Cada vez que se envíe un mensaje: Debe guardarse en una estructura (struct) Debe emitirse un evento para dejar registro público en la blockchain Debe pintar todos los mensajes con console.log",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_EjercicioMensajes.sol": "EjercicioMensajes"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_EjercicioMensajes.sol": {
+			"keccak256": "0x5767ba98b33c0df1821b759a8be29bf0217b4fcf5a78680ff2bd4dc023b17278",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7ea0b4435b2d5b9073c1e29d1cb7fa71f531047b212d1056da2a4e30b4756f79",
+				"dweb:/ipfs/Qmf1BV8kAdBKfskFTDT2kVtZGX9fzV89s1iHSKvnSTyupg"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+			]
+		}
+	},
+	"version": 1
+}

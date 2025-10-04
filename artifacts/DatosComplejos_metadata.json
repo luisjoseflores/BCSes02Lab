@@ -1,10 +1,29 @@
 {
 	"compiler": {
-		"version": "0.8.30+commit.73712a01"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "pos",
+						"type": "uint256"
+					}
+				],
+				"name": "PersonaAgregada",
+				"type": "event"
+			},
 			{
 				"inputs": [
 					{
@@ -14,6 +33,29 @@
 					}
 				],
 				"name": "agregarNombre",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "agregarPersonaMapping",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -117,8 +159,39 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "personasMapping",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "edad",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "pintarNombres",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pintarPersonas",
 				"outputs": [],
 				"stateMutability": "view",
 				"type": "function"
@@ -139,7 +212,7 @@
 		"compilationTarget": {
 			"contracts/8_DatosComplejos.sol": "DatosComplejos"
 		},
-		"evmVersion": "prague",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -152,11 +225,11 @@
 	},
 	"sources": {
 		"contracts/8_DatosComplejos.sol": {
-			"keccak256": "0x53e418edbe1d6688be4960860b24a1667e2d564d6c73dd33cca671cc135e6ddd",
+			"keccak256": "0xb6473584877939eef0e0fc978127ad0e6f2f0bedc009819e2417a103a0bd2906",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1e12a649c0ae97812f64f78cae9e76e8baba4085982e1a75f28ca4919d1c8eff",
-				"dweb:/ipfs/QmfCFtLezgNt31axo9wmkDe9T867BYHjWWDMZRySyY27Zg"
+				"bzz-raw://e8983eb8e93621ac084e15149e3a4cd70f05af86781e14504b80c5c2c6490b3e",
+				"dweb:/ipfs/Qmbiw6QBST6XBX5Wy7aDG3m48VxpFBTRzs3vJ5xmoYtWhX"
 			]
 		},
 		"hardhat/console.sol": {

@@ -1,0 +1,169 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "operacion",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numeroA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numeroB",
+						"type": "uint256"
+					}
+				],
+				"name": "operar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "sumar10siguientes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sumarImpares",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sumaImpares",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sumarImparesYPares",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sumaImpares",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sumaPares",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_times",
+						"type": "uint256"
+					}
+				],
+				"name": "sumarXsiguientes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_BucleFor.sol": "BucleFor"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_BucleFor.sol": {
+			"keccak256": "0xe4840d61a4de06afc88adfc542355c8e033c1c817eafeed873382cc09ea71b18",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d7c3009a97997c1dbfbe0f757dea1e2392e78e399641ca46d2dea6fa8638f50b",
+				"dweb:/ipfs/QmZn7huVNduk5vXD2n8fmZ8dGmEEgitzWj6g6HHLRgUEZB"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+			]
+		}
+	},
+	"version": 1
+}
